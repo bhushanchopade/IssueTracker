@@ -1,0 +1,11 @@
+<%- include('_header'); %>
+<div class="main-container">
+    <div class="heading">Projects List</div>
+    <section class="project-container">
+        <% for(i of projects){%>
+        <div class="item">
+            <a class = "options" href="/issue_tracker/project/<%= i.id %>"><%= i.name %></a>
+        </div>
+        <% } %>
+    </section>
+</div>

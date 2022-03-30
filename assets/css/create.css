@@ -1,0 +1,75 @@
+/* common for all  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  main container of the full body */
+
+.project-box {
+  width: 50%;
+  height: 50vh;
+  margin: auto;
+  margin-top: 5%;
+  /* border: 2px solid red; */
+}
+
+.project-title {
+  text-align: center;
+  font-size: 2.9rem;
+  font-weight: bold;
+  color: #083304;
+  /* background-color : rgb(141, 10, 102)  */
+  /* border: 1px solid black; */
+}
+
+/* form start */
+
+.login-form {
+  min-width: 500px;
+  width: 75%;
+  margin: auto;
+  /* border: 1px solid black; */
+  margin-top: 3%;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  border: 2px solid lightgrey;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+.icon {
+  padding: 15px;
+  font-size: 20px;
+  min-width: 1px;
+  color: #070433;
+}
+
+.input-field {
+  width: 100%;
+  padding-left: 5px;
+  border: 0px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.input-field:focus {
+  outline: none;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #206405;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.submit-btn:hover {
+  opacity: 0.9;
+}
