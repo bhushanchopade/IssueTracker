@@ -30,4 +30,4 @@
 
 - Issue Tracker is hosted on Heroku web server : https://issuebugtracker.herokuapp.com/issue_tracker
  
-- Git repository clone link : https://github.com/bhushanchopade/IssueTracker.git
+- Git repository clone link : https://github.com/bhushanchopade/IssueTracker.git 
