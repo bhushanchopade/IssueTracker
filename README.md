@@ -31,3 +31,10 @@
 - Issue tracker host link : https://issuebugtracker.herokuapp.com/issue_tracker
 - Git Repository Clone Link : https://github.com/bhushanchopade/IssueTracker.git
 
+## Get Started
+- clone the project
+- open terminal and write this command one by one
+- npm install
+- node index.js
+
+
