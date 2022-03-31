@@ -28,6 +28,6 @@
 
 <h1>Hosted urls</h1>
 
- Issue Tracker is hosted on Heroku web server : https://issuebugtracker.herokuapp.com/issue_tracker
+- Issue Tracker is hosted on Heroku web server : https://issuebugtracker.herokuapp.com/issue_tracker
  
 - Git repository clone link : https://github.com/bhushanchopade/IssueTracker.git
