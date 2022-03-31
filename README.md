@@ -14,8 +14,8 @@
 <ul>
   <li>create Home page for displaying all the created project </li>
   <li>Create Project Page for creating projects </li>
-  <li>create project Detail Page for displaying all the details % issues related to project</li>
-  <li>Create Create issue page  for creating issues/bugs on project </li>
+  <li>create project Detail Page for displaying all the details / issues related to project</li>
+  <li> Create issue page  for creating issues/bugs on project </li>
 </ul>
 
 <h1>Routing </h1>
