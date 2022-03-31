@@ -1,5 +1,6 @@
 const express = require("express");
-const port = 8000;
+require("dotenv").config()
+const port = process.env.PORT || 8000;
 const cookieParser = require("cookie-parser");
 const expressLayouts = require("express-ejs-layouts");
 const db = require("./config/mongoose");
