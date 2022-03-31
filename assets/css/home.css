@@ -1,0 +1,83 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.navigation-bar {
+  width: 90%;
+  margin: auto;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(110, 75, 10);
+}
+
+.logo {
+  font-variant: small-caps;
+  font-size: 35px;
+  font-weight: 800;
+  color: white;
+}
+
+.menu {
+  margin-right: 15px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: 600;
+  margin: 15px;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 1px gray;
+}
+
+.menu ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* main container */
+
+.main-container {
+  /* border: 1px solid red; */
+  width: 90%;
+  min-height: 90vh;
+  margin: auto;
+}
+
+.heading {
+  /* border: 1px solid; */
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.project-container {
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 2px 2px lightgray;
+  width: 65%;
+  margin: auto;
+  text-align: center;
+  padding: 8px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.item {
+  background-color: rgb(184, 230, 173);
+  padding: 8px;
+  margin: 15px;
+}
+.item a {
+  text-decoration: none;
+}
+
+.options {color : brown}

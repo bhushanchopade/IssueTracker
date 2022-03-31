@@ -1,0 +1,75 @@
+.main-container-box {
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: auto;
+  /* margin-top: 25px; */
+  /* background-color: cadetblue; */
+}
+
+.projects-title {
+  width: 65%;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(4, 71, 40);
+  color: white;
+}
+
+.project-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 2px 2px gray;
+  background-color: lightgray;
+}
+
+.project-details h4 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.project-btn {
+  border: 1px solid;
+  box-shadow: 0px 0px 2px 2px gray;
+  padding: 15px;
+  text-align: center;
+  background-color: lightgray;
+  border: 1px solid transparent;
+}
+.btn {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: rgb(78, 99, 22);
+  color: white;
+  border-radius: 15px;
+  border: none;
+}
+
+.issue-container {
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(11, 71, 34);
+  color: white;
+}
+
+.issue-box {
+  border: 10px solid transparent;
+}
+.color {
+  background-color: white;
+  color: black;
+}

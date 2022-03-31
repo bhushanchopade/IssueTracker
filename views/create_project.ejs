@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="/css/create.css">
+<%- include('_header'); %>
+<div class="main-container">
+    <div class="project-box">
+        <h2 class="project-title">Create Project</h2>
+        <form action="/issue_tracker/create" method="POST" class="login-form">
+            <div class="input-container">
+                <i class="fas fa-project-diagram icon"></i>
+                <input class="input-field" type="text" name="name" placeholder="Project name" required>
+            </div>
+            <div class="input-container">
+                <i class='fas fa-info icon'></i>
+                <input class="input-field" type="text" name="description" placeholder="Project description" required>
+            </div>
+            <div class="input-container">
+                <i class="fas fa-user icon"></i>
+                <input class="input-field" type="text" name="author" placeholder="Project author" required>
+            </div>
+            <button class="submit-btn" type="submit">Create project</button>
+        </form>
+    </div>
+</div>

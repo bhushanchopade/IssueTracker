@@ -1,0 +1,53 @@
+<link rel="stylesheet" href="/css/pdetails.css">
+<%- include('_header'); %>
+<div class="main-container-box">
+    <div class="projects-title"><%= project.name %></div>
+    <% if(project){%>
+    <div class="project-container">
+        <div class="project-details">
+            <label for="ProjectName">Project Name : </label>
+            <h4><%= project.name%></h4>
+        </div>
+        <div class="project-details">
+            <label for="ProjectName">Project Description : </label>
+            <h4><%= project.description%></h4>
+        </div>
+        <div class="project-details">
+            <label for="ProjectName">Project Author : </label>
+            <h4><%= project.author%></h4>
+        </div>
+
+        <div class="project-btn">
+            <a href="/issue_tracker/create_issue/<%= project._id%>" class="btn">Create Issue</a>
+        </div>
+        <% if( project.issue) {%>
+        <div class="issue-container">
+            <div class="issue-heading">Issues on &nbsp;<b style="color: rgb(231, 218, 159);"><%= project.name %></b>
+            </div>
+            <div><a href="#" class="btn color">sort by author</a></div>
+        </div>
+        <% for(i of project.issue){%>
+        <div class="issue-box">
+
+            <div class="project-details">
+                <label for="ProjectName">Title : </label>
+                <h4><%= i.title %></h4>
+            </div>
+            <div class="project-details">
+                <label for="ProjectName">Description : </label>
+                <h4><%= i.description %></h4>
+            </div>
+            <div class="project-details">
+                <label for="ProjectName">Lables : </label>
+                <h4><%= i.lables%></h4>
+            </div>
+            <div class="project-details">
+                <label for="ProjectName">Author : </label>
+                <h4><%= i.author%></h4>
+            </div>
+        </div>
+        <%}%>
+        <%}%>
+    </div>
+    <%}%>
+    </div>
