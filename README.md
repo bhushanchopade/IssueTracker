@@ -26,7 +26,7 @@
   <li>http://localhost:8000/issue_tracker/create_issue/:id</li> 
 </ul>
 
-<h1>Hosted urls</h1>
+<h1> urls</h1>
 
 - Issue tracker host link : https://issuebugtracker.herokuapp.com/issue_tracker
 - Git Repository Clone Link : https://github.com/bhushanchopade/IssueTracker.git
